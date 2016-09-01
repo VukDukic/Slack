@@ -1,0 +1,6 @@
+// curl request for posting to a channel
+
+curl -X POST --data-urlencode 'payload={"channel": "#esl-registration",
+"username": "webhookbot", "test": "This is posted to #esl-registration
+and comes froma  bot named webhookbot.", "ico_emoji": ":ghost"}'
+https://hook.slack.com/services/T04QUFN4S/B0AQ17MDM/kW3Kp2lU3k25ZvSQmuCjJjT0
